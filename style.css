@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f0f6fa;
+    font-family: Arial, sans-serif;
+    color: #2a3744;
+    margin: 0;
+    position: relative;
+}
+
+.header-section {
+    padding: 40px;
+    text-align: center;
+    background-color: #0ea5e9;
+    border-bottom-left-radius: 18px;
+    color: white;
+    border-bottom-right-radius: 18px;
+}
+
+.header-section p {
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+.menu-links {
+    margin: 18px;
+    padding: 12px;
+    border-radius: 14px;
+    text-align: center;
+    background-color: #dcf0fd;
+}
+
+.menu-links a {
+    font-weight: bold;
+    text-decoration: none;
+    margin: 0 14px;
+    color: #0578b5;
+}
+
+.menu-links a:hover {
+    padding: 7px 12px;
+    background-color: #0388d1;
+    border-radius: 10px;
+    color: white;
+}
+
+.content-area {
+    padding: 20px;
+    padding-bottom: 130px;
+}
+
+.content-card {
+    border-radius: 18px;
+    margin-bottom: 50px;
+    background-color: white;
+    padding: 50px;
+}
+
+.content-card h2 {
+    margin-bottom: 12px;
+    color: #141f2e;
+}
+
+.special-card {
+    border-left: 5px solid #1ea9ed;
+    background-color: #ecfeff;
+}
+
+.page-footer {
+    border-top-left-radius: 18px;
+    padding: 45px;
+    color: #e8ebee;
+    background-color: #0f172a;
+    text-align: center;
+    border-top-right-radius: 18px;
+    bottom: 0;
+    width: 100%;
+    position: absolute;
+    line-height: 2;
+}
